@@ -1,0 +1,175 @@
+﻿h1{
+ position: relative;
+ padding: 0.5em;
+ background: #a6d3c8;
+ color: olive;
+}
+
+h1::before{
+ position: absolute;
+ content: '';
+ top: 100%;
+ left: 0;
+ border: none;
+ border-bottom: solid 15px transparent;
+ border-right: solid 20px rgb(149,158,155);
+}
+
+
+
+
+/* h2{
+ color: #FFFFCC;
+ padding: 0.5em;
+ display: inline-block;
+ background: #000077;
+ vertical-align: middle;
+ border-radius: 25px 0px 0px 25px;
+} */
+/* h2 {
+  padding-bottom: .5em;
+  padding-left: 5px;
+  border-bottom: 2px solid #7ED1E6;
+  display: inline-block;
+  } */
+  h2 {
+    padding: 1rem 2rem;
+    border-bottom: 3px solid #000;
+    background: #f4f4f4;
+    display: inline-block;
+  }
+
+/* h2::before{
+ content:'●';
+ color: white;
+ margin-right: 8px;
+} */
+h3{
+  font-size: 1.5em;
+}
+
+ul,ol{
+ border-radius :8px;
+ box-shadow:0px 0px 5px silver;
+ padding: 0.5em 0.5em 0.5em 2em;
+ display: inline-block;
+
+}
+.list-tag{
+  
+  list-style:none; /* 冒頭の数字が不要なので消す */
+  padding-left:5px; /* 左側の余白を5pxに調整 */
+}
+
+ul li, ol li{
+ line-height: 1.5;
+ padding: 0.4ex;
+}
+
+ul{
+  list-style-type: disc;
+}
+
+img.sizeM{
+ text-align:center;
+ width: 640px;
+}
+
+table{
+ width: 100%;
+ border-spacing: 0;
+}
+
+table th{
+ border-bottom: solid 2px #fb5144;
+ padding: 10px 0 10px 10px;
+}
+
+table td{
+ border-bottom: solid 2px #ddd;
+ text-align: center;
+ padding: 10px 0 10px 10px;
+}
+
+span{
+  font-size: 0.4em;
+}
+.atention{
+ font-size: 1.6em;
+}
+
+p{
+margin: 20px 0;
+padding-left: 30px;
+font-size: large;
+}
+
+div.balloon{
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #555;
+  box-sizing: border-box;
+}
+
+div.balloon:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #FFF;
+  z-index: 2;
+}
+
+div.balloon:after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid #555;
+  z-index: 1;
+}
+
+div.balloon p{
+  margin: 0;
+  padding: 0;
+}
+
+img.sizeS{
+ text-align:center;
+ width: 420px;
+}
+
+img.sizeM{
+  text-align: center;
+}
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+ #page_top a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+} 
+ #page_top a:hover {
+  background-color: #666;
+  text-decoration: none;
+} 
+.ended{
+  text-align: center;
+  font-size: smaller;
+}
